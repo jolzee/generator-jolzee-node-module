@@ -65,6 +65,7 @@
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-uglify": "^6.0.4"
+    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-plugin-filesize": "^6.2.1"
   }
 }
