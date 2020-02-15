@@ -7,7 +7,7 @@ module.exports = ({author, github, name}) => {
   console.log(`Hey`, `${author},`);
   console.log();
 
-  console.log(`Created module`, chalk.yellow(`'${name}'`), `with generator-module-boilerplate`);
+  console.log(`Created module`, chalk.yellow(`'${name}'`), `with generator-jolzee-node-module`);
   console.log();
 
   console.log(`use`, chalk.cyan(`npm run build:watch`), `/`, chalk.cyan(`npm run test:watch`), `for development mode`);
