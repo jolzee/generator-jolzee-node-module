@@ -1,4 +1,4 @@
-const generator = require(`yeoman-generator`);
+const Generator = require(`yeoman-generator`);
 
 const { isPlainObject } = require(`lodash`);
 
