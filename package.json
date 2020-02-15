@@ -1,0 +1,35 @@
+{
+  "name": "generator-jolzee-node-module",
+  "version": "1.7.0",
+  "description": "npm module (UMD, CJS, ES6) boilerplate generator",
+  "license": "MIT",
+  "main": "generators/app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jolzee/generator-jolzee-node-module.git"
+  },
+  "author": "Peter Joles",
+  "scripts": {
+    "test": "mocha",
+    "release": "release-it"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-devine": "^3.0.1",
+    "release-it": "^12.4.3"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "global": "^4.4.0",
+    "lodash": "^4.17.15",
+    "mkdirp": "^1.0.3",
+    "yeoman-generator": "^4.5.0",
+    "yosay": "^2.0.2"
+  }
+}
