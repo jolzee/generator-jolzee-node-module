@@ -60,7 +60,7 @@ npm install generator-jolzee-node-module -g
 
 
 ```console
-yo module-boilerplate
+yo jolzee-node-module
 ```
 
 ## Getting Started / Scripts
