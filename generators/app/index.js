@@ -195,7 +195,7 @@ module.exports = class extends Generator {
 
     const ci = [`.travis.yml`];
 
-    let files = [
+    let altFiles = [
       ...eslint,
       ...git,
       ...github,
@@ -209,10 +209,10 @@ module.exports = class extends Generator {
     if (this.props.flow) {
       const flow = [`.flowconfig`];
 
-      files = [...files, ...flow];
+      altFiles = [...altFiles, ...flow];
     }
 
-    files.forEach(f => this._copyFile(f));
+    altFiles.forEach(f => this._copyFile(f));
   }
 
   install() {
