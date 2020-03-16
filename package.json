@@ -1,6 +1,6 @@
 {
   "name": "generator-jolzee-node-module",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "npm module (UMD, CJS, ES6) boilerplate generator",
   "license": "MIT",
   "main": "generators/app/index.js",
