@@ -190,7 +190,7 @@ module.exports = class extends Generator {
 
     const npm = [
       { from: `_package.json`, to: `package.json` },
-      `.release.json`
+      `.release-it.json`
     ];
 
     const ci = [`.travis.yml`];
