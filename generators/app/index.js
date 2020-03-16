@@ -71,18 +71,12 @@ module.exports = class extends Generator {
 
   initializing() {
     this.props = {
-      yarn: true,
+      yarn: false,
       flow: false,
       license: `MIT`,
       gitmoji: true,
       year: new Date().getFullYear()
     };
-
-    try {
-      exec(`yarn --version >/dev/null 2>&1`, { encoding: `utf8` });
-    } catch (e) {
-      this.props.yarn = false;
-    }
   }
 
   prompting() {
@@ -119,6 +113,21 @@ module.exports = class extends Generator {
           {
             value: `Apache-2.0`,
             name: `Apache-2.0`
+          }
+        ]
+      },
+      {
+        type: `rawlist`,
+        name: `yarn`,
+        message: `NPM or Yarn`,
+        choices: [
+          {
+            value: false,
+            name: `npm`
+          },
+          {
+            value: true,
+            name: `yarn`
           }
         ]
       },
